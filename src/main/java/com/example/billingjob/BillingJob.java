@@ -16,7 +16,7 @@ public class BillingJob implements Job {
 
     @Override
     public void execute(JobExecution execution) {
-        System.out.println("processing billling information");
+        System.out.println("processing billing information");
         execution.setStatus(BatchStatus.COMPLETED);
         execution.setExitStatus(ExitStatus.COMPLETED);
         this.jobRepository.update(execution);
