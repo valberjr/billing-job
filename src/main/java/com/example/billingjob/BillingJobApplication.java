@@ -1,4 +1,4 @@
-package com.example.billing_job;
+package com.example.billingjob;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
